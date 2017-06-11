@@ -1,0 +1,7 @@
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\obj\Debug\adoDAL.csprojResolveAssemblyReference.cache
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\DAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\DAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\Entities.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\Entities.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\obj\Debug\DAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\obj\Debug\DAL.pdb

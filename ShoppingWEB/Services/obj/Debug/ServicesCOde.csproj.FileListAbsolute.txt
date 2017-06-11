@@ -1,0 +1,9 @@
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\Services.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\Services.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\DAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\Entities.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\DAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\bin\Debug\Entities.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\obj\Debug\ServicesCOde.csprojResolveAssemblyReference.cache
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\obj\Debug\Services.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\Services\obj\Debug\Services.pdb
