@@ -66,3 +66,9 @@ C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\D
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\Entities.pdb
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\Services.pdb
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\DAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\EntityDAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\iDAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\EntityDAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\iDAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\Factory.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\ShoppingWEB\bin\Factory.pdb

@@ -1,0 +1,7 @@
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\bin\Debug\iDAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\bin\Debug\iDAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\bin\Debug\Entities.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\bin\Debug\Entities.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\obj\Debug\iDAL.csprojResolveAssemblyReference.cache
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\obj\Debug\iDAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\iDAL\obj\Debug\iDAL.pdb

@@ -5,3 +5,5 @@ C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\Ent
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\Entities.pdb
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\obj\Debug\DAL.dll
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\obj\Debug\DAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\iDAL.dll
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\DAL\bin\Debug\iDAL.pdb

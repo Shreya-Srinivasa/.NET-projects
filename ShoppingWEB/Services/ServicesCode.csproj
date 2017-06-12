@@ -44,13 +44,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\adoDAL.csproj">
-      <Project>{E2B13001-2147-4FB5-84AE-6116C4EBCEB8}</Project>
-      <Name>adoDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{CCFF9693-1B6E-44AD-9C51-4E5856510E32}</Project>
       <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Factory\ObjectFactory.csproj">
+      <Project>{4b59e709-25bb-4db7-9398-20cb4360cd91}</Project>
+      <Name>ObjectFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iDAL\iDAL.csproj">
+      <Project>{0185e04e-77eb-4fc2-8c19-69023c624979}</Project>
+      <Name>iDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
