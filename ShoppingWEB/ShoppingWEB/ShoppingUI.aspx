@@ -11,8 +11,13 @@
         <div>
             <asp:GridView ID="gvProducts" runat="server"></asp:GridView>
             <asp:Button ID="btnNewProduct" runat="server" server="" Text="Add New Product" />
+            
             <asp:TextBox ID="txtNewProduct" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ControlToValidate="txtNewProduct"
+             Display="Dynamic" ErrorMessage="RequiredFieldValidator">* This is required!</asp:RequiredFieldValidator>
+            
             <asp:Button ID="btnSubmit" runat="server" Text="Done" />
+
         </div>
     </form>
 </body>

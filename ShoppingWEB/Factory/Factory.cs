@@ -13,7 +13,7 @@ namespace ObjectFactory
     public class Factory
     {
         enum EnumDalType { ADO, EF };
-        EnumDalType DalType = EnumDalType.EF;
+        EnumDalType DalType = EnumDalType.ADO;
         iDAL.iDAL _iDAL;
         Dictionary<EnumDalType, iDAL.iDAL> _dictionaryDAL = new Dictionary<EnumDalType, iDAL.iDAL>();
 

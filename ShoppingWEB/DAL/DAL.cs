@@ -59,8 +59,17 @@ namespace adoDAL
                 _objConnection.Open();
                 SqlCommand objCommand = new SqlCommand();
                 objCommand.Connection = _objConnection;
+
+                SqlParameter paramProductName = new SqlParameter();
+                paramProductName.ParameterName = "productName";
+                paramProductName.Value = objProduct.productName;
+                objCommand.Parameters.Add(paramProductName);
+
                 objCommand.CommandType = System.Data.CommandType.StoredProcedure;
                 objCommand.CommandText = "InsertProductToTblProductsSP";
+
+
+
                 int result = objCommand.ExecuteNonQuery();
                 return result;
             }

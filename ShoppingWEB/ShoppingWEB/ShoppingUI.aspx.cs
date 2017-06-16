@@ -23,31 +23,31 @@ namespace ShoppingWEB
 
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
-            if (txtNewProduct.Text == "")
+            
+                Product objProduct = new Product() { productName = txtNewProduct.Text };
+                bool result = _objServices.InsertProduct(objProduct);
+
+           
+            if (result)
             {
-                return;
+                gvProducts.DataSource = _objServices.GetProductsBAL();
+                gvProducts.DataBind();
+                txtNewProduct.Visible = false;
+                gvProducts.Visible = true;
+                btnSubmit.Visible = false;
+                txtNewProduct.Text = "";
             }
             else
             {
-                Product objProduct = new Product() { productName = txtNewProduct.Text };
-                if (_objServices.InsertProduct(objProduct))
-                {
-                    gvProducts.DataSource = _objServices.GetProductsBAL();
-                    gvProducts.DataBind();
-                    txtNewProduct.Visible = false;
-                    gvProducts.Visible = true;
-                    btnSubmit.Visible = false;
-                }
-                else
-                {
-                    gvProducts.DataSource = _objServices.GetProductsBAL();
-                    gvProducts.DataBind();
-                    txtNewProduct.Visible = false;
-                    gvProducts.Visible = true;
-                    btnSubmit.Visible = false;
-                }
-
+                gvProducts.DataSource = _objServices.GetProductsBAL();
+                gvProducts.DataBind();
+                txtNewProduct.Visible = false;
+                gvProducts.Visible = true;
+                btnSubmit.Visible = false;
+                txtNewProduct.Text = "";
             }
+
+            
         }
 
         private void BtnNewProduct_Click(object sender, EventArgs e)
