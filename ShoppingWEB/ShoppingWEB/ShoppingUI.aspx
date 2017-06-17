@@ -12,7 +12,8 @@
        function ValidateForBlanks()
        {
            var textBox = document.getElementById("txtNewProduct");
-           if (document.getElementById("<% = txtNewProduct.ClientID%>").value.trim() == '') {
+           if (textBox.value.trim() == '')
+           {
                alert('Product name cannot be blank..');
                textBox.style.backgroundColor = "red";
                textBox.focus();
