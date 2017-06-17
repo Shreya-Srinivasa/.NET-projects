@@ -1,9 +1,9 @@
-C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\obj\Debug\EntityDAL.csprojResolveAssemblyReference.cache
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\EntityDAL.dll
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\EntityDAL.pdb
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\Entities.dll
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\iDAL.dll
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\Entities.pdb
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\bin\Debug\iDAL.pdb
+C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\obj\Debug\EntityDAL.csprojResolveAssemblyReference.cache
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\obj\Debug\EntityDAL.dll
 C:\Shreya\Projrects\AspNet WebAppls\DotNetProjects\ShoppingWEB\EntityDAL\obj\Debug\EntityDAL.pdb

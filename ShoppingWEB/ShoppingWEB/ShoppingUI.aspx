@@ -6,17 +6,32 @@
 <head runat="server">
     <title></title>
 </head>
+    
 <body>
+   <script type ="text/javascript">
+       function ValidateForBlanks()
+       {
+           var textBox = document.getElementById("txtNewProduct");
+           if (document.getElementById("<% = txtNewProduct.ClientID%>").value.trim() == '') {
+               alert('Product name cannot be blank..');
+               textBox.style.backgroundColor = "red";
+               textBox.focus();
+               return false;
+           }
+       }
+
+      
+
+   </script>
     <form id="form1" runat="server">
         <div>
             <asp:GridView ID="gvProducts" runat="server"></asp:GridView>
             <asp:Button ID="btnNewProduct" runat="server" server="" Text="Add New Product" />
             
             <asp:TextBox ID="txtNewProduct" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ControlToValidate="txtNewProduct"
-             Display="Dynamic" ErrorMessage="RequiredFieldValidator">* This is required!</asp:RequiredFieldValidator>
             
-            <asp:Button ID="btnSubmit" runat="server" Text="Done" />
+            
+            <asp:Button ID="btnSubmit" runat="server" Text="Done" OnClientClick =" return ValidateForBlanks()" />
 
         </div>
     </form>

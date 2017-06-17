@@ -16,18 +16,19 @@ namespace ShoppingWEB
             ServicesCode _objServices = new ServicesCode();
             gvProducts.DataSource = _objServices.GetProductsBAL();
             gvProducts.DataBind();
-            
+
             btnNewProduct.Click += BtnNewProduct_Click;
             btnSubmit.Click += BtnSubmit_Click;
         }
 
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
-            
-                Product objProduct = new Product() { productName = txtNewProduct.Text };
-                bool result = _objServices.InsertProduct(objProduct);
 
-           
+            Product objProduct = new Product() { productName = txtNewProduct.Text };
+            bool result = _objServices.InsertProduct(objProduct);
+
+
+
             if (result)
             {
                 gvProducts.DataSource = _objServices.GetProductsBAL();
@@ -47,7 +48,7 @@ namespace ShoppingWEB
                 txtNewProduct.Text = "";
             }
 
-            
+
         }
 
         private void BtnNewProduct_Click(object sender, EventArgs e)
@@ -55,7 +56,10 @@ namespace ShoppingWEB
             btnSubmit.Visible = true;
             gvProducts.Visible = false;
             txtNewProduct.Visible = true;
-            
+
         }
+
+        
     }
 }
+       
